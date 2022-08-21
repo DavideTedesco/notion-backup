@@ -243,7 +243,7 @@ public class NotionClient {
 			sleep(6000);
 		}
 
-		log.info("Notion workspace export failed. After 10 minutes, the export status from the Notion API response was still not 'success'");
+		log.info("Notion workspace export failed. After 80 minutes, the export status from the Notion API response was still not 'success'");
 		return Optional.empty();
 	}
 
